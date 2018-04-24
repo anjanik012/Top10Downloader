@@ -7,7 +7,7 @@ The Structure of the app is as follows:
 
  :: A DownloadData class which extends AsyncTask to download the xml data in a backgroud thread.
  
- :: A ParseApplications class to parse the xml data using XmlPullParserFactory.
+ :: A ParseApplications class to parse the xml data using XmlPullParserFactory(http://www.xmlpull.org/).
  
  :: A custom adapter for a ListView to present the parsed data on the screen.
  
